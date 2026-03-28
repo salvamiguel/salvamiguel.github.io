@@ -10,7 +10,7 @@ export const projects: Project[] = [
     name: 'Twitter Sentiment',
     descriptionKey: 'projects.twitter',
     chips: ['Python', 'NLP', 'Data Analysis'],
-    github: 'https://github.com/salvamiguel',
+    github: 'https://github.com/salvamiguel/twitter-sentiment',
   },
   {
     name: 'Viviendea Match',
@@ -22,6 +22,6 @@ export const projects: Project[] = [
     name: 'Crossplane Workshop',
     descriptionKey: 'projects.crossplane',
     chips: ['Crossplane', 'GitOps', 'IaC', 'Kubernetes'],
-    github: 'https://github.com/salvamiguel',
+    github: 'https://github.com/salvamiguel/crossplane-argocd-workshop',
   },
 ]
