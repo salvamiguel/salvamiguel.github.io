@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "certs": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Expert Architect",
+    "cta_projects": "View projects",
+    "cta_cv": "Download CV",
+    "taglines": [
+      "Building cloud infrastructures that don't wake you up at 3am.",
+      "IaC, CaC, and a deep respect for the terminal.",
+      "Teaching machines and engineers to work better."
+    ]
+  },
+  "stack": {
+    "title": "Stack",
+    "cloud": "Cloud",
+    "iac": "IaC / DevOps",
+    "languages": "Languages",
+    "ai": "AI",
+    "teaching": "Teaching"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "parallel": "parallel",
+    "entries": {
+      "ntt_expert": "Cloud modernization for international enterprise clients. Cloud-native architectures, IaC/CaC, DevOps and Platform Engineering.",
+      "ntt_lead": "Cloud migration for international clients. HA/DR strategies. Cloud-ready SDLC definition.",
+      "profesor": "Teaching AI system development and deployment in multicloud environments.",
+      "cto": "Technology strategy, real estate demand analysis, data visualization. ASPRIMA 2023 Award.",
+      "fullstack": "PHP, Vue.js, Google Cloud, Google Maps API, AWS Lambda. Selected for Lanzadera CBRE.",
+      "csharp": "Construction project management software. Selected for Lanzadera Garage."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "twitter": "Tweet sentiment analysis by keyword and time range.",
+    "viviendea": "Ranking algorithm for thousands of properties with 200 parameters in under a nanosecond.",
+    "crossplane": "Step-by-step workshop for a complete GitOps workflow with Crossplane."
+  },
+  "certs": {
+    "title": "Certifications"
+  },
+  "contact": {
+    "title": "Got an interesting project?",
+    "location": "Valencia, Spain — Open to remote",
+    "copied": "Copied!"
+  }
+}

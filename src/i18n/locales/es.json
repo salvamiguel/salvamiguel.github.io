@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "about": "Sobre mi",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "certs": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Expert Architect",
+    "cta_projects": "Ver proyectos",
+    "cta_cv": "Descargar CV",
+    "taglines": [
+      "Building cloud infrastructures that don't wake you up at 3am.",
+      "IaC, CaC, and a deep respect for the terminal.",
+      "Teaching machines and engineers to work better."
+    ]
+  },
+  "stack": {
+    "title": "Stack",
+    "cloud": "Cloud",
+    "iac": "IaC / DevOps",
+    "languages": "Languages",
+    "ai": "AI",
+    "teaching": "Teaching"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "present": "Presente",
+    "parallel": "paralelo",
+    "entries": {
+      "ntt_expert": "Modernizacion cloud para clientes enterprise internacionales. Arquitecturas cloud-native, IaC/CaC, DevOps y Platform Engineering.",
+      "ntt_lead": "Migracion cloud de clientes internacionales. Estrategias HA/DR. Definicion de SDLC cloud-ready.",
+      "profesor": "Docencia en desarrollo y despliegue de sistemas IA en entornos multicloud.",
+      "cto": "Estrategia tecnologica, analisis de demanda inmobiliaria, visualizacion de datos. Premio ASPRIMA 2023.",
+      "fullstack": "PHP, Vue.js, Google Cloud, Google Maps API, AWS Lambda. Seleccionado para Lanzadera CBRE.",
+      "csharp": "Software de gestion de proyectos de construccion. Seleccionado para Lanzadera Garage."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "twitter": "Analisis de sentimiento de tweets por keyword y rango temporal.",
+    "viviendea": "Algoritmo de ranking para miles de inmuebles con 200 parametros en menos de un nanosegundo.",
+    "crossplane": "Workshop paso a paso de un workflow GitOps completo con Crossplane."
+  },
+  "certs": {
+    "title": "Certificaciones"
+  },
+  "contact": {
+    "title": "Tienes un proyecto interesante?",
+    "location": "Valencia, Spain — Abierto a remoto",
+    "copied": "Copiado!"
+  }
+}

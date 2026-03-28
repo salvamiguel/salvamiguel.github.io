@@ -13,6 +13,7 @@ Single-page application for Salvador Miguel Manzanera Hernandez, Expert Architec
 | Framework | Vue 3, Composition API, `<script setup>`, TypeScript |
 | Styling | Tailwind CSS v4, CSS variables for theming |
 | Routing | Vue Router with `createWebHashHistory()` |
+| i18n | vue-i18n (ES default, EN) |
 | Deploy | GitHub Actions -> GitHub Pages |
 
 ## Design Direction
@@ -64,6 +65,11 @@ salvamiguel.com/
     ├── style.css                   # Tailwind directives + noise + animations
     ├── router/
     │   └── index.ts                # Hash-based router, / -> HomePage
+    ├── i18n/
+    │   ├── index.ts                # createI18n config + locale detection
+    │   └── locales/
+    │       ├── es.json             # Spanish translations (default)
+    │       └── en.json             # English translations
     ├── composables/
     │   ├── useTheme.ts             # Dark/light toggle, localStorage, prefers-color-scheme
     │   ├── useTypewriter.ts        # Cycling typewriter effect, reactive ref
@@ -82,6 +88,7 @@ salvamiguel.com/
     │   ├── ContactSection.vue      # Minimal contact section with copy-to-clipboard
     │   └── ui/
     │       ├── ThemeToggle.vue     # Sun/moon SVG toggle
+    │       ├── LocaleToggle.vue    # ES/EN language toggle
     │       ├── ChipTag.vue         # Reusable chip component
     │       └── ToastNotification.vue # Ephemeral toast for "Copied!"
     ├── pages/
@@ -99,6 +106,43 @@ salvamiguel.com/
 - **Current routes:** `/ -> HomePage.vue` (all sections)
 - **Future routes:** `/courses/:slug`, `/labs/:id`, etc. — router is ready for expansion
 - `App.vue` contains only `<RouterView />` and global layout (if any)
+
+## Internationalization (i18n)
+
+**Languages:** Spanish (es) as default, English (en).
+
+**Approach:** `vue-i18n` with static JSON message files — no lazy loading needed for two languages.
+
+**Locale detection:** Reads `localStorage('locale')`; falls back to `navigator.language` (es* -> es, else en). Toggle visible in navbar next to theme toggle.
+
+**Toggle UI:** A minimal `ES / EN` text toggle in the navbar (JetBrains Mono, small), next to the theme toggle. Active locale is highlighted with accent color.
+
+**Message files:**
+
+```
+src/
+  i18n/
+    index.ts          # createI18n setup, locale detection
+    locales/
+      es.json         # Spanish translations
+      en.json         # English translations
+```
+
+**What gets translated:**
+- All UI labels (navbar links, section headings, CTAs, button text)
+- Hero tagline phrases (3 per language)
+- Experience descriptions (role titles stay in original language, descriptions translated)
+- Project descriptions
+- Contact section text
+- Terminal block stays in English (it's code — universal)
+
+**What stays fixed (no translation):**
+- Person name
+- Company names (NTT Data, Viviendea, COCOPLAN, etc.)
+- Technology names (AWS, Terraform, Python, etc.)
+- Certification names (official titles)
+- Terminal block content
+- Email address, links
 
 ## Sections Detail
 
@@ -260,7 +304,6 @@ Vite config sets `base: '/'` assuming custom domain `salvamiguel.com`.
 ## Excluded (YAGNI)
 
 - No analytics / SEO meta beyond basics
-- No i18n (content in English per spec)
 - No service worker / PWA
 - No unit tests (first iteration)
 - No image lazy loading (no images in scope)
