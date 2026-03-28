@@ -8,14 +8,14 @@
       <span class="w-3 h-3 rounded-full bg-[#FFBD2E]"></span>
       <span class="w-3 h-3 rounded-full bg-[#27C93F]"></span>
     </div>
-    <div class="space-y-3 text-[#A0A0A0]">
+    <div class="space-y-3">
       <div>
-        <span class="text-accent">$</span> <span class="text-text/80">whoami</span>
-        <div class="text-text/60 mt-1">&gt; @salvamiguel</div>
+        <span class="text-accent">$</span> <span class="text-[#E0E0E0]">whoami</span>
+        <div class="text-[#A0A0A0] mt-1">&gt; @salvamiguel</div>
       </div>
       <div>
-        <span class="text-accent">$</span> <span class="text-text/80">cat skills.json</span>
-        <pre class="text-text/60 mt-1 text-xs leading-relaxed">{
+        <span class="text-accent">$</span> <span class="text-[#E0E0E0]">cat skills.json</span>
+        <pre class="text-[#A0A0A0] mt-1 text-xs leading-relaxed">{
   "cloud": ["AWS", "GCP", "Azure"],
   "iac": ["Terraform", "Ansible", "Crossplane"],
   "languages": ["Python", "TypeScript", "PHP"],
@@ -23,8 +23,8 @@
 }</pre>
       </div>
       <div>
-        <span class="text-accent">$</span> <span class="text-text/80">uptime</span>
-        <div class="text-text/60 mt-1">&gt; 8 years building things that scale</div>
+        <span class="text-accent">$</span> <span class="text-[#E0E0E0]">uptime</span>
+        <div class="text-[#A0A0A0] mt-1">&gt; 8 years building things that scale</div>
       </div>
       <div class="flex items-center">
         <span class="text-accent">$</span>
