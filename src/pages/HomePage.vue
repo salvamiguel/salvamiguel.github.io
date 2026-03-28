@@ -32,6 +32,6 @@ useScrollReveal()
     </div>
   </main>
   <footer class="py-8 px-6 text-center">
-    <p class="font-mono text-xs text-text/20">&copy; 2025 Salvador Miguel Manzanera Hernandez</p>
+    <p class="font-mono text-xs text-text/20">&copy; 2026 Salvador Miguel Manzanera Hernandez</p>
   </footer>
 </template>
