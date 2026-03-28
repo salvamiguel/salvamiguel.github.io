@@ -1,11 +1,12 @@
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, nextTick } from 'vue'
 
 export function useScrollReveal() {
   let observer: IntersectionObserver | null = null
 
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
-  onMounted(() => {
+  onMounted(async () => {
+    await nextTick()
     const elements = document.querySelectorAll('.reveal')
 
     if (prefersReduced) {

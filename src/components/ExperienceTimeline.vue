@@ -15,7 +15,7 @@ const { t } = useI18n()
       </h2>
 
       <!-- Timeline line -->
-      <div class="relative border-l-2 border-accent/20 ml-1.5">
+      <div class="relative border-l-2 border-accent/20 ml-[5px]">
         <ExperienceEntry
           v-for="entry in experience"
           :key="entry.id"

@@ -11,7 +11,7 @@
     <div class="space-y-3 text-[#A0A0A0]">
       <div>
         <span class="text-accent">$</span> <span class="text-text/80">whoami</span>
-        <div class="text-text/60 mt-1">&gt; salvador_miguel</div>
+        <div class="text-text/60 mt-1">&gt; @salvamiguel</div>
       </div>
       <div>
         <span class="text-accent">$</span> <span class="text-text/80">cat skills.json</span>

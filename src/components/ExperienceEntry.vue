@@ -16,7 +16,7 @@ const dateRange = props.entry.dateEnd
 <template>
   <div class="relative pl-8 pb-8 group">
     <!-- Timeline node -->
-    <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 border-accent bg-bg z-10 group-hover:bg-accent transition-colors"></div>
+    <div class="absolute -left-[7px] top-1.5 w-3 h-3 rounded-full border-2 border-accent bg-bg z-10 group-hover:bg-accent transition-colors"></div>
 
     <!-- Content -->
     <button
