@@ -20,7 +20,7 @@ const { text } = useTypewriter(taglines.value)
       <div class="space-y-6">
         <div>
           <h1 class="font-display text-5xl lg:text-6xl font-extrabold leading-tight text-text">
-            <span>Salva</span><br />
+            <span>Salva Miguel</span><br />
             <span class="text-text/70">Manzanera</span>
           </h1>
           <div class="mt-4 flex items-center gap-3">
