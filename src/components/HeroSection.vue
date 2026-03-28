@@ -20,8 +20,8 @@ const { text } = useTypewriter(taglines.value)
       <div class="space-y-6">
         <div>
           <h1 class="font-display text-5xl lg:text-6xl font-extrabold leading-tight text-text">
-            <span>Salvador Miguel</span><br />
-            <span class="text-text/70">Manzanera Hernandez</span>
+            <span>Salva</span><br />
+            <span class="text-text/70">Manzanera</span>
           </h1>
           <div class="mt-4 flex items-center gap-3">
             <span class="font-display text-xl lg:text-2xl font-bold text-accent">{{ t('hero.title') }}</span>
@@ -44,7 +44,8 @@ const { text } = useTypewriter(taglines.value)
             &rarr; {{ t('hero.cta_projects') }}
           </a>
           <a
-            href="#"
+            href="/docs/CV2026_3.pdf"
+            download
             class="inline-flex items-center gap-2 px-5 py-2.5 border border-accent/30 text-accent font-mono text-sm rounded-lg hover:bg-accent/10 transition-colors"
           >
             &darr; {{ t('hero.cta_cv') }}
