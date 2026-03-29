@@ -19,8 +19,8 @@ const { text } = useTypewriter(taglines.value)
       <!-- Left column: Text -->
       <div class="space-y-6">
         <div>
-          <h1 class="font-display text-5xl lg:text-6xl font-extrabold leading-tight text-text">
-            <span>Salva Miguel</span><br />
+          <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-text">
+            <span class="whitespace-nowrap">Salva Miguel</span><br />
             <span class="text-text/70">Manzanera</span>
           </h1>
           <div class="mt-4 flex items-center gap-3">
