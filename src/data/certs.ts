@@ -13,4 +13,6 @@ export const certifications: Certification[] = [
   { name: 'Azure Data Fundamentals DP-900', date: 'Dec 2025', platform: 'Azure', borderColor: '#0078D4', badge: '/badges/azure-dp900.png' },
   { name: 'GitHub Actions Certificate', date: 'Mar 2025', platform: 'GitHub', borderColor: '#8B949E', badge: '/badges/github-actions.png' },
   { name: 'Machine Learning for Big Data Analytics', date: 'Jun 2018', platform: 'UPV', borderColor: '#6B7280', badge: '/badges/upv.png' },
+  { name: 'Claude Certified Architect - Foundations', date: '2026', platform: 'Anthropic', borderColor: '#D97757', badge: '/badges/anthropic.svg' },
+  { name: 'Claude Certified Developer - Foundations', date: '2026', platform: 'Anthropic', borderColor: '#D97757', badge: '/badges/anthropic.svg' },
 ]
